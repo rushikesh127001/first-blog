@@ -1,0 +1,18 @@
+<h1>editing selectede article</h1>
+
+
+<% if @article.errors.any? %>
+    <h2>the following errors occured </h2>
+    <ul>
+        <%= @article.errors.full_messages do |msg| %>
+        <li>
+            <%= msg %>
+        </li>    
+        <% end %>
+    </ul>
+
+<% end %>    
+
+<%= render 'form' %>
+
+<%= link_to "back to listings", articles_path %>
