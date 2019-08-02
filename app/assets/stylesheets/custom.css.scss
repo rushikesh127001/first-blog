@@ -64,13 +64,18 @@ margin-left: 15px;
 .description {
     margin-top: 5px;
     }
-    .article-title {
-        font-weight: bold;
-        font-size: 1.5em;
-        }
-        .article-body {
-        border-top: 1px solid #eaeaea;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        }
+.article-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.article-body {
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.article-metadata{
+    border-top: 1px solid #eaeaea;
+    margin-top: 15px; 
+}
 
