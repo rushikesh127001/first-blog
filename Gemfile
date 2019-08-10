@@ -11,6 +11,7 @@ gem 'jquery-rails'
 gem 'bcrypt', '~> 3.1.7' 
 gem 'will_paginate', '~>3.1.5'
 gem 'bootstrap-will_paginate', '~>1.0.0'
+gem 'yarn', '~> 0.1.1'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -60,7 +61,7 @@ group :test do
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper'
+  gem 'webdrivers', '~> 3.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
