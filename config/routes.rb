@@ -13,6 +13,11 @@ Rails.application.routes.draw do
   post 'login', to:'sessions#create'
   get 'logout', to:'sessions#destroy'
 
+<<<<<<< HEAD
+=======
+  resources :categories, except: [:destroy]
+
+>>>>>>> 5af488caed9f9d079ddf2b050b13ec2ee6791b81
 
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

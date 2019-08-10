@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(version: 2019_08_03_094050) do
     t.integer "user_id"
   end
 
+
+
   create_table "users", force: :cascade do |t|
     t.string "username"
     t.string "email"
